@@ -1,6 +1,6 @@
 import UIKit
 
 
-final class ImageImagesListCell: UITableViewCell {
+final class ImagesListCell: UITableViewCell {
     static let reuseIdentifier = "ImagesListCell"
 }
