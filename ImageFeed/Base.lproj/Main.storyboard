@@ -332,7 +332,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="NP8-WC-qa3" kind="presentation" modalPresentationStyle="fullScreen" id="584-5U-Bkn"/>
+                        <segue destination="NP8-WC-qa3" kind="presentation" identifier="ShowAuthenticationScreen" modalPresentationStyle="fullScreen" id="584-5U-Bkn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Je-JO-jMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
