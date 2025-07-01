@@ -13,7 +13,7 @@ final class WebViewViewController: UIViewController {
     @IBOutlet private var progressView: UIProgressView!
     
     weak var delegate: WebViewViewControllerDelegate?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,7 +40,10 @@ final class WebViewViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+<<<<<<< HEAD
         
+=======
+>>>>>>> 564dac67bfbe07878b0831002a62079f9efcb3ee
         webView.addObserver(
             self,
             forKeyPath: #keyPath(WKWebView.estimatedProgress),
